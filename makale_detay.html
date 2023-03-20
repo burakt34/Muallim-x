@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muallim X</title>
+    <link rel="stylesheet" href="makale_detay.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="dist/switchery.js"></script>
+    <link rel="stylesheet" href="dist/switchery.css" />
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!--      header   start   -->
+        <div class="header">
+            <div class="headertop">
+                <div class="logo"><img src="img/logo.svg" alt="" srcset=""></div>
+                <div class="select">
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a href="#">Biz Kimiz</a></li>
+
+                        <li class="nav-item"><a href="#">Eğitim Paketleri</a></li>
+
+                        <li class="nav-item"><a href="#" id="iletisim">İletişim</a></li>
+                    </ul>
+
+
+                </div>
+
+                <div class="cont">
+                    <img src="img/phone.svg">
+                    <p>0850 222 0 494</p>
+                </div>
+
+                <!-- hamburger -->
+                <div class="hmg">
+                    <p>Menu</p>
+                </div>
+
+                <!-- hamburger -->
+            </div>
+        </div>
+
+        <!--      header   end   -->
+
+
+
+
+
+
+
+
+
+
+
+        <!--    slider  start  -->
+
+        <div class="slider">
+
+
+
+
+            <!-- hmg pop    -->
+            <div class="hmg-pop">
+                <div class="listpop">
+                    <ul>
+                        <li><a href="#">Biz Kimiz</a></li>
+                        <li><a href="#">Eğitim Paketleri</a></li>
+                        <li><a href="#">İletişim</a></li>
+                    </ul>
+                </div>
+
+                <img src="img/xicon.svg" alt="" srcset="" id="closeicon">
+            </div>
+            <!-- hmg pop -->
+
+
+            <!-- iletişim form pop start-->
+            <div class="formpop">
+
+                <div class="poptitle">
+                    <h3>İletişim Formu</h3>
+                    <img src="img/xicon.svg" id="closepop">
+                </div>
+                <div class="popperson">
+                    <div class="poppersontitle">
+                        <h4>Öğrenci Bilgileri</h4>
+                    </div>
+                    <div class="poppername">
+                        <input id="popper1" type="text" placeholder="Adı">
+                        <input id="popper2" type="text" placeholder="Soyadı">
+                    </div>
+                    <div class="city">
+                        <select id="Iller">
+                            <option value="0">Lütfen Bir İl Seçiniz</option>
+                        </select>
+                        <select id="Ilceler" disabled="disabled">
+                            <option value="0">Lütfen Önce bir İl seçiniz</option>
+                        </select>
+                    </div>
+                    <div class="schl">
+                        <input id="schl1" type="text" placeholder="Okulu">
+                        <input id="schl2" type="text" placeholder="Sınıfı">
+                    </div>
+
+                </div>
+
+
+
+                <div class="parentinfo">
+
+                    <div class="pnm">
+                        <h4>Veli İletişim Bilgileri</h4>
+                    </div>
+
+                    <div class="pnmc">
+                        <input id="pnmca" type="number" placeholder="Telefon">
+                        <input id="pnmcb" type="email" placeholder="Email">
+                    </div>
+                </div>
+
+
+
+                <div class="educlsinfo">
+
+                    <div class="eductitle">
+                        <h4>Eğitim Bilgileri</h4>
+                    </div>
+                    <div class="ucrsec">
+                        <select id="sınıfı" name="">
+                            <option value="sec1">8. Sınıf İkili Paket</option>
+                            <option value="sec2">8. Sınıf İkili Paket</option>
+
+                        </select>
+
+                        <select id="ucret" name="">
+                            <option value="ucret1">1 Yıl (15.600₺)</option>
+                            <option value="ucret2">1 Yıl (15.600₺)</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="educysl">
+                        <input id="yslch1" type="checkbox" name="" id="">
+                        <a href="#">Üyelik koşullarını</a> ve <a href="#">KVKK</a> politikasını kabul ediyorum.
+                    </div>
+
+                    <div class="educkamp">
+                        <input id="yslch2" type="checkbox" name="" id="">
+                        Kampanyalardan ve bana özel tekliflerden haberdar olmak için elektronik ileti ve sms almak
+                        istiyorum.
+                    </div>
+
+                </div>
+
+                <div class="formbtn">
+                    <button id="formbtns">Gönder</button>
+                </div>
+
+
+
+
+            </div>
+
+
+
+            <!-- iletişim form pop start-->
+
+
+            <!-- biz kimiz start -->
+
+
+            <div class="egg">
+                <h2>Eğitimde Gelecek ve Muallim X</h2>
+                <img src="img/egi.png" alt="" srcset="" id="egii">
+                <div class="egpd">
+
+                    <p id="egp">
+                        Herkesin bir fikir var… <br>
+
+                        Evet, eğitimin geleceği hakkında da herkesin bir fikri var. “Gelecek” her zaman merak konusu
+                        olmuştur. Özellikle de konu eğitim olunca bu merak daha da artıyor. Çünkü eğitim herkesin
+                        hayatında var. Hayatın merkezinde olan faaliyetlerden biri. Doğrudan geleceğe dönük bir
+                        faaliyet. Bu nedenle eğitimin geleceği hakkında düşünülmesi ve fikir geliştirilmesi oldukça
+                        normal. <br>
+                        <br><br>
+
+                        Kişiler gibi toplumlar da eğitimin geleceğini merak ediyor. Eğitimin geleceği ile ilgili pek çok
+                        kuruluş uzun çalışmalar sonrasında senaryolar oluşturuyor. Sürekli değişen günümüz bilgi
+                        dünyasına uyum sağlayabilmek için bu senaryolara ihtiyaç var. Ancak senaryolar aracılığıyla
+                        eğitimin geleceğine ilişkin fikir sahibi olabilir ve gerekli hazırlıkları yapabiliriz.<br>
+                        <br><br>
+
+                        Eğitimin geleceğine ilişkin senaryolar hazırlanırken pek çok çalışma yapılıyor. Senaryo yazmak
+                        çok boyutlu bilimsel bir yöntem. Toplumların eğilimleri, mevcut eğitim durumları, toplumlardaki
+                        eğitimine etki eden ulusal ve uluslararası gelişmeler gibi çok sayıda unsurdetaylıca incelenerek
+                        senaryolar oluşturuluyor. Örneğin, Covid 19 pandemi dönemitoplumların ve bireylerin eğitim
+                        eğilimlerinde büyük bir değişikliğe sebep olmuştur. Eğitimingeleceği ile ilgili düşünceleri
+                        farklılaştırmıştır.<br>
+                        <br><br>
+
+                        OECD, Google for Education, WİSE, Avrupa Birliği Eğitim Genel Müdürlüğü gibi pek çok
+                        uluslararası kuruluşun eğitimin geleceğine ilişkin raporları ve senaryoları mevcut.
+                        Bütün bu çalışmaları incelediğimizde eğitimine geleceğine dair bazı ortak hususlar dikkatimizi
+                        çekiyor:<br>
+                        <br><br>
+
+                        • Eğitimde inovasyon çok değerli olacak.
+                        • Okullar toplumun her alanı ile etkileşim halinde olacak, tamamen açık sistemlere dönüşecek. İş
+                        sektörü ve okulların iş birliği artacak.
+                        • Hayat boyu öğrenme fikri giderek yaygınlaşacak ve insanlar devamlı eğitim talep edecek.
+                        • Geleneksel okulların yerini çevrimiçi okullar almaya başlayacak. Akademik bilgiler en değerli
+                        bilgiler olmaktan çıkacak.
+                        • Okullarda mevcut müfredatlar farklılaşacak ve teknoloji okulların merkezinde olacak. Yaş
+                        gruplarına bağlı olan kademe anlayışında değişiklikler meydana gelecek.
+                        • Bireyselleştirilmiş ve ihtiyaca yönelik eğitim anlayışı hâkim olacak.
+                        • Sosyal ve duygusal gelişimi destekleyen, ahlaki değerleri ön planda tutan eğitimler
+                        yaygınlaşacak.
+                        • Çevre bilinci sürdürebilirlik açısından önemini artırarak eğitimin temel konularından birisi
+                        haline gelecek.<br>
+                        <br><br>
+
+                        Eğitimle ilgili pek çok senaryo ve beklentiyi sıralamak mümkün. Sonuç olarak eğitimin okulla
+                        sınırlı kalmayacağı, özellikle online pek çok platformun eğitimin destekleyicisi olacağı
+                        görülmektedir. Eğitimden beklentilerin de değişeceği anlaşılmaktadır. Özellikle sürdürülebilir
+                        bir dünya için, sosyal beceriler, duygusal gelişim, çevre bilinci ve kültür aktarımı eğitimde
+                        önemli bir yere sahip olacaktır.<br>
+                        <br><br>
+
+                        MuallimX, bütün bu gelişmeler ve bilimsel çalışmaların incelenmesi sonucunda kurulmuş online bir
+                        eğitim platformudur. Bir eğitim hareketidir. İhtiyaçlara ve geleceğe yönelik bir eğitim
+                        hayalidir.<br>
+                        <br><br>
+
+                       
+
+                    </p>
+
+                    
+                    
+
+                </div>
+
+                <div class="eggcardall">
+                    <h3>İlgili makaleler</h3>
+                    <div class="eggcardmain">
+                        <div class="eggcard">
+                            <img src="img/eggcard.svg" alt="" id="eggc">
+                            <h4>Başlık</h4>
+                            <p>Kısa açıklama, Kısa açıklama, Kısa açıklama, Kısa açıklama, </p>
+                        </div>
+
+                        <div class="eggcard">
+                            <img src="img/eggcard.svg" alt="" id="eggc">
+                            <h4>Başlık</h4>
+                            <p>Kısa açıklama, Kısa açıklama, Kısa açıklama, Kısa açıklama, </p>
+                        </div>
+
+                        <div class="eggcard">
+                            <img src="img/eggcard.svg" alt="" id="eggc">
+                            <h4>Başlık</h4>
+                            <p>Kısa açıklama, Kısa açıklama, Kısa açıklama, Kısa açıklama, </p>
+                        </div>
+                    </div>
+
+                    <a href="makale_liste.html"><button id="eggbtn">Tüm Makaleler</button></a>
+                </div>
+
+            </div>
+
+
+            <!-- biz kimiz end -->
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+    <!-- footer start -->
+    <div class="footer">
+        <div class="ftrmain">
+            <div class="logo">
+                <img src="img/flogo.svg" alt="" srcset="">
+            </div>
+
+            <div class="footermid">
+                <div class="prs">
+                    <ul>
+                        <li>Biz Kimiz</li>
+                        <li>Eğitim Paketleri</li>
+                        <li>İletişim</li>
+                    </ul>
+                </div>
+
+                <div class="ysl">
+                    <ul>
+                        <li>Gizlilik Politikası</li>
+                        <li>Kullanım Şartları</li>
+                        <li>Muallimx© 2023 Tüm Hakları Saklıdır.</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="social">
+                <ul>
+                    <li><img src="img/insta.svg" alt="" srcset=""></li>
+                    <li><img src="img/face.svg" alt="" srcset=""></li>
+                    <li><img src="img/twe.svg" alt="" srcset=""></li>
+                    <li><img src="img/ytube.svg" alt="" srcset=""></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer end -->
+
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
