@@ -1,3 +1,3 @@
 # Muallim-x
 
-##Buproje ilk commitim olarak ayarlandı
+##Buproje ilk commitim olarak ayarlandı...
