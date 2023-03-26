@@ -286,7 +286,7 @@
 
 
 .container .egg .eggcardall #eggbtn:hover {
-    background: #FF6800;
+    background: #CF5400;
     color: #fff;
 }
 
@@ -749,7 +749,7 @@
 
 .formbtn #formbtns:hover {
     background: #FFf;
-    color: #FF6800;
+    color: #CF5400;
     border: 1px solid #FF6800;
 }
 

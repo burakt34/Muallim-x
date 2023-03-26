@@ -2535,6 +2535,7 @@ input:checked+.titles+.content {
         height: 48px;
         border: 2px solid #FF6800;
         border-radius: 12px;
+        background: inherit;
 
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
@@ -3110,6 +3111,7 @@ input:checked+.titles+.content {
         height: 48px;
         border: 2px solid #FF6800;
         border-radius: 12px;
+        background: inherit;
 
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
@@ -3322,7 +3324,8 @@ input:checked+.titles+.content {
 
         border-top: none;
         max-height: 168px;
-        font-family: 'Montserrat';
+        max-height: 568px;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
@@ -3333,6 +3336,8 @@ input:checked+.titles+.content {
         order: 0;
         flex-grow: 1;
         background: #E2E8F0;
+
+        overflow-y: auto;
 
         margin: 24px;
 
