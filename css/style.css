@@ -256,7 +256,7 @@
 }
 
 
-.container .slider .sliderinfo button {
+.container .slider .sliderinfo a button {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -274,7 +274,7 @@
 
 
 
-.container .slider .sliderinfo button a p {
+.container .slider .sliderinfo a button p {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
