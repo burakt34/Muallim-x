@@ -1061,6 +1061,15 @@
 
     /* hmg mobil pop */
 
+/* makale geri dön start */
+    .embck #embck1 {
+        position: absolute;
+        top: 2%;
+        left: 0;
+    }
+
+/* makale geri dön end */
+
     /*  slider hmg pop */
 
     .hmg-pop {
@@ -1132,9 +1141,9 @@
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 32px;
+        font-size: 22px;
         line-height: 60px;
-        text-align: center;
+        /* text-align: center; */
         color: #18181B;
     }
 
