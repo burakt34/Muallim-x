@@ -477,7 +477,7 @@
     width: 160px;
     height: 160px;
     margin: 0 auto;
-    
+
 }
 
 .container .eduselle .educard .ecardinfo h4 {
@@ -504,6 +504,89 @@
     margin-left: 24px;
 
 }
+
+
+
+
+
+
+
+
+/* muallimx  about start  */
+
+
+.container .about {
+    display: flex;
+    /* width: 1438px; */
+    width: 100%;
+    height: 780px;
+    background: #F2DFE7;
+}
+
+.container .about .abtmain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 1278px;
+    height: 620px;
+    margin: 0 auto;
+    padding: 80px;
+    gap: 40px;
+}
+
+.container .about .abtinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 622px;
+    height: 442px;
+
+}
+
+.container .about .abtinfo h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: -2px;
+    color: #18181B;
+}
+
+.container .about .abtinfo p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    color: #181E32;
+}
+
+
+.container .about .abtmain .abtimg {
+    width: 620px;
+    height: 620px;
+}
+
+.container .about .abtmain .abtimg #abtimg1 {
+    height: 620px;
+    width: 620px;
+    border-radius: 24px;
+
+}
+
+
+
+
+
+
+/* muallimx  about end  */
 
 
 
@@ -1529,6 +1612,271 @@ input:checked+.titles+.content {
 
 
 
+
+
+
+/* iletişim start */
+
+.container .contact {
+    width: 100%;
+    height: 740px;
+    background: #FFFBF2;
+}
+
+
+.container .contact .cntmain {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 1278px;
+    /* width: 1250px; */
+    height: 660px;
+
+    margin: 0 auto;
+}
+
+
+.container .contact .cntmain .ctninfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 24px;
+    width: 619px;
+    height: 320px;
+    border-radius: 24px;
+}
+
+.container .contact .cntmain .ctninfo h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.0025em;
+    color: #0F172A;
+}
+
+.container .contact .cntmain .ctninfo .ctntel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 148px;
+    height: 68px;
+}
+
+.container .contact .cntmain .ctninfo .ctntel p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    color: #181E32;
+}
+
+.container .contact .cntmain .ctninfo .ctnml {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 197px;
+    height: 68px;
+
+}
+
+.container .contact .cntmain .ctninfo .ctnml p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    color: #181E32;
+}
+
+
+.container .contact .cntmain .cntform .ctnformmain {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 24px;
+    width: 619px;
+    height: 660px;
+    border-radius: 24px;
+}
+
+
+.container .contact .cntmain .cntform .ctnformmain h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.0025em;
+    color: #0F172A;
+}
+
+
+.container .contact .cntmain .cntform .ctnformmain .ctnfrm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 539px;
+    height: 436px;
+}
+
+.container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 18px 16px;
+    width: 539px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1.5px solid #E2E8F0;
+    border-radius: 12px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.0025em;
+    color: #64748B;
+    border: none;
+}
+
+.container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 18px 16px;
+    width: 539px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1.5px solid #E2E8F0;
+    border-radius: 12px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.0025em;
+    color: #64748B;
+    border: none;
+}
+
+.container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 18px 16px;
+    width: 539px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1.5px solid #E2E8F0;
+    border-radius: 12px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.0025em;
+    color: #64748B;
+    border: none;
+}
+
+.container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 18px 16px;
+    width: 539px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1.5px solid #E2E8F0;
+    border-radius: 12px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.0025em;
+    color: #64748B;
+    border: none;
+}
+
+.container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain5 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 18px 16px;
+    width: 539px;
+    height: 148px;
+    background: #FFFFFF;
+    border: 1.5px solid #E2E8F0;
+    border-radius: 12px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.0025em;
+    color: #64748B;
+}
+
+
+.container .contact .cntmain .cntform .ctnformmain .cntformbtn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+    width: 539px;
+    height: 56px;
+    background: #FF6800;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+
+
+}
+
+.container .contact .cntmain .cntform .ctnformmain .cntformbtn p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 475px;
+    height: 24px;
+}
+
+
+/* iletişim end */
+
+
+
+
 /* footer start */
 
 
@@ -2430,6 +2778,80 @@ input:checked+.titles+.content {
 
     }
 
+
+
+
+    /* about mobil start */
+
+
+    .container .about {
+        display: flex;
+        width: 100%;
+        height: 655px;
+
+    }
+
+    .container .about .abtmain {
+        display: flex;
+        flex-direction: column;
+        padding: 24px;
+        gap: 40px;
+        margin: 0 auto;
+    }
+
+    .container .about .abtmain .abtinfo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        width: 327px;
+        height: 240px;
+    }
+
+    .container .about .abtmain .abtinfo h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 36px;
+        color: #18181B;
+    }
+
+
+    .container .about .abtmain .abtinfo p {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.5px;
+        color: #181E32;
+    }
+
+
+    .container .about .abtmain .abtimg {
+        width: 327px;
+        height: 327px;
+        margin: 0 auto;
+    }
+
+    .container .about .abtmain .abtimg #abtimg1 {
+        width: 327px;
+        height: 327px;
+
+    }
+
+
+
+
+
+
+
+    /* about mobil end */
+
+
+
+
     /*  pay plan --  ödemem planı start */
 
     .container .payplan {
@@ -2448,7 +2870,7 @@ input:checked+.titles+.content {
 
     }
 
-    
+
     /* iletişim pop start */
 
 
@@ -3115,6 +3537,74 @@ input:checked+.titles+.content {
         background: #FF6800;
         color: #fff;
     }
+
+
+
+    /* iletişim start */
+
+    .container .contact {
+        width: 100%;
+        height: 1050px;
+    }
+
+    .container .contact .cntmain {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container .contact .cntmain .ctninfo {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container .contact .cntmain .cntform {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+    }
+
+
+    .container .contact .cntmain .cntform .ctnformmain {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container .contact .cntmain .cntform .ctnformmain .ctnfrm {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 650px;
+    }
+
+    .container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain1 {
+        width: 100%;
+        border: 1px solid black;
+    }
+    .container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain2 {
+        width: 100%;
+    }
+    .container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain3 {
+        width: 100%;
+    }
+    .container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain4 {
+        width: 100%;
+    }
+    .container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain5 {
+        width: 100%;
+    }
+
+    .container .contact .cntmain .cntform .ctnformmain .cntformbtn{
+        width: 100%;
+    }
+
+    
+
+
+
+    /* iletişim contact end */
 
 
 
