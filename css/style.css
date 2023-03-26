@@ -1865,7 +1865,7 @@ input:checked+.titles+.content {
 
 .container .contact .cntmain .cntform .ctnformmain .cntformbtn:hover {
     background: #CF5400;
-} 
+}
 
 .container .contact .cntmain .cntform .ctnformmain .cntformbtn p {
     font-family: 'Montserrat', sans-serif;
@@ -2434,7 +2434,7 @@ input:checked+.titles+.content {
     }
 
     .container #eduselle2 {
-        height: 2476px;
+        height: 1200px;
         width: 100%;
 
 
@@ -2730,6 +2730,7 @@ input:checked+.titles+.content {
         padding: 0px;
         width: 100%;
         height: 2096px;
+        height: 1096px;
         margin-top: -100px;
         padding: 24px;
         margin: 0 auto;
@@ -2737,13 +2738,12 @@ input:checked+.titles+.content {
     }
 
 
-    .container .eduselle .educard:last-child {
+    /* .container .eduselle .educard:last-child {
         padding: 0px;
         width: 327px;
         height: 2096px;
 
-        /* margin: 0 auto; */
-    }
+    } */
 
     .container .eduselle .educard .ecardinfo {
         display: flex;
@@ -2752,6 +2752,19 @@ input:checked+.titles+.content {
         /* padding: 24px; */
         width: 327px;
         height: 248px;
+        background: #FFFFFF;
+        border-radius: 24px;
+        cursor: pointer;
+    }
+
+
+    .container .eduselle .educard2 .ecardinfo2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* padding: 24px; */
+        width: 148px;
+        height: 208px;
         background: #FFFFFF;
         border-radius: 24px;
         cursor: pointer;
@@ -3493,20 +3506,24 @@ input:checked+.titles+.content {
         width: 100%;
         border: 1px solid black;
     }
+
     .container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain2 {
         width: 100%;
     }
+
     .container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain3 {
         width: 100%;
     }
+
     .container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain4 {
         width: 100%;
     }
+
     .container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain5 {
         width: 100%;
     }
 
-    .container .contact .cntmain .cntform .ctnformmain .cntformbtn{
+    .container .contact .cntmain .cntform .ctnformmain .cntformbtn {
         width: 100%;
         cursor: pointer;
     }
@@ -3515,7 +3532,7 @@ input:checked+.titles+.content {
         background: #CF5400;
     }
 
-    
+
 
 
 
