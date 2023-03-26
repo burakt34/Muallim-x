@@ -2494,8 +2494,12 @@ input:checked+.titles+.content {
         height: 112px;
         margin: 0 auto;
     }
+    .container .eduselle .mentor .mentorbtn a{
+        width: 100%;
+        height: 48px;
+    }
 
-    .container .eduselle .mentor .mentorbtn #mntbtn1 {
+    .container .eduselle .mentor .mentorbtn a #mntbtn1 {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -2518,7 +2522,7 @@ input:checked+.titles+.content {
         transition: ease .5s;
     }
 
-    /* .container .eduselle .mentor .mentorbtn #mntbtn1:hover {
+    /* .container .eduselle .mentor .mentorbtn a #mntbtn1:hover {
         background: #FFf;
         color: #FF6800;
         border: 1px solid #FF6800;
