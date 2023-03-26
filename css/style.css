@@ -32,6 +32,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .container .header .headertop {
@@ -107,7 +110,7 @@
 }
 
 .container .header .headertop .select ul a:hover {
-    border-bottom: 2px solid #FF6800;
+    border-bottom: 2px solid #CF5400;
 
 }
 
@@ -414,14 +417,14 @@
 }
 
 .container .eduselle .eduinfo .eduinfoc .eduinfobutton #btnf:hover {
-    background: #fff;
-    border: 2px solid #FF6800;
-    color: #FF6800;
+    background: #CF5400;
+    border: 2px solid #CF5400;
+    color: #fff;
     font-size: 12px;
 }
 
 .container .eduselle .eduinfo .eduinfoc .eduinfobutton #btns:hover {
-    background: #FF6800;
+    background: #CF5400;
     border: 2px solid #FF6800;
     color: #FFf;
     /* font-size: 12px; */
@@ -1002,7 +1005,7 @@
 
 .formbtn #formbtns:hover {
     background: #FFf;
-    color: #FF6800;
+    color: #CF5400;
     border: 1px solid #FF6800;
 }
 
@@ -1195,7 +1198,7 @@
 }
 
 .container .payplan .paycardall .pcardright button:hover {
-    background: #FF6800;
+    background: #CF5400;
     color: #fff;
 }
 
@@ -1587,7 +1590,7 @@ input:checked+.titles+.content {
 }
 
 .em #tmbtn:hover {
-    background: #FF6800;
+    background: #CF5400;
     color: #fff;
 }
 
@@ -1855,9 +1858,14 @@ input:checked+.titles+.content {
     border-radius: 16px;
     outline: none;
     border: none;
+    cursor: pointer;
 
 
 }
+
+.container .contact .cntmain .cntform .ctnformmain .cntformbtn:hover {
+    background: #CF5400;
+} 
 
 .container .contact .cntmain .cntform .ctnformmain .cntformbtn p {
     font-family: 'Montserrat', sans-serif;
@@ -2164,6 +2172,8 @@ input:checked+.titles+.content {
         top: 44px;
         background: #FFFFFF;
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+        position: relative;
+        top: 0%;
     }
 
     .container .header .headertop {
@@ -2269,7 +2279,7 @@ input:checked+.titles+.content {
 
     .container .slider {
         background: url(../img/Slider_375.svg);
-        background-size: 100% 100%;
+        background-size: 100% auto;
         width: 100%;
         height: 560px;
         position: relative;
@@ -2358,10 +2368,6 @@ input:checked+.titles+.content {
     .container .slider .sliderinfo .slideicerik {
         width: 290px;
         height: 60px;
-        /* margin-top: 24px; */
-        margin: 24px auto 0 auto;
-
-
     }
 
 
@@ -2383,7 +2389,7 @@ input:checked+.titles+.content {
         align-items: flex-start;
         padding: 16px 32px;
         gap: 10px;
-        width: 153px;
+        /* width: 153px; */
         height: 48px;
         background: #FF6800;
         border-radius: 12px;
@@ -2646,16 +2652,16 @@ input:checked+.titles+.content {
     }
 
     .container .eduselle .eduinfo .eduinfoc .eduinfobutton #btnf:hover {
-        background: #fff;
-        border: 2px solid #FF6800;
-        color: #FF6800;
+        background: #CF5400;
+        border: 2px solid #CF5400;
+        color: #fff;
         font-size: 12px;
     }
 
     .container .eduselle .eduinfo .eduinfoc .eduinfobutton #btns:hover {
         background: #fff;
-        border: 2px solid #FF6800;
-        color: #FF6800;
+        border: 2px solid #CF5400;
+        color: #CF5400;
         font-size: 12px;
     }
 
@@ -3104,7 +3110,7 @@ input:checked+.titles+.content {
     }
 
     .container .payplan .paycardall .pcardright button:hover {
-        background: #FF6800;
+        background: #CF5400;
         color: #fff;
     }
 
@@ -3165,102 +3171,6 @@ input:checked+.titles+.content {
         width: 100%;
         display: flex;
     }
-
-
-    /* .container .donat {
-        
-        height: 500px;
-        width: 100%;
-        margin-top: 70px;
-        padding: 0;
-
-    } */
-
-    /* dona */
-
-    /* 
-    .container .donat .donmain {
-
-        display: flex;
-        width: 375px;
-        height: 500px;
-        position: relative;
-
-    } */
-
-    /* .container .donat .donmain #don1 {
-        display: none;
-
-        position: absolute;
-        left: 22.63%;
-        right: 22.63%;
-        top: 53.1%;
-        bottom: 4.29%;
-
-    } */
-
-    /* .container .donat .donmain #don1m {
-        height: 179px;
-        width: 179px;
-        border-radius: 0px;
-        z-index: 1;
-
-
-    } */
-
-
-
-
-    /* .container .donat .donmain .cta {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 8px;
-
-        position: absolute;
-        left: 5.5%;
-        right: 5.2%;
-        top: 6.43%;
-        bottom: 50%;
-    }
-
-    .container .donat .donmain .cta h3 {
-        font-family: 'Manrope', sans-serif;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 24px;
-        line-height: 130%;
-        letter-spacing: -0.5px;
-        color: #000000;
-        flex: none;
-        order: 0;
-        align-self: stretch;
-        flex-grow: 0;
-    }
-
-    .container .donat .donmain .cta p {
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 18px;
-        display: flex;
-        align-items: center;
-        letter-spacing: -0.5px;
-        color: #000000;
-        flex: none;
-        order: 1;
-        align-self: stretch;
-        flex-grow: 0;
-    } */
-
-
-
-
-    /*! eksik */
-
-
 
 
 
@@ -3534,7 +3444,7 @@ input:checked+.titles+.content {
     }
 
     .em #tmbtn:hover {
-        background: #FF6800;
+        background: #CF5400;
         color: #fff;
     }
 
@@ -3598,6 +3508,11 @@ input:checked+.titles+.content {
 
     .container .contact .cntmain .cntform .ctnformmain .cntformbtn{
         width: 100%;
+        cursor: pointer;
+    }
+
+    .container .contact .cntmain .cntform .ctnformmain .cntformbtn:hover {
+        background: #CF5400;
     }
 
     
