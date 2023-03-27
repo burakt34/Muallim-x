@@ -2931,7 +2931,7 @@ input:checked+.titles+.content {
 
 
     .container .payplan .payinfo p {
-        font-family: 'Montserrat';
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
@@ -2939,7 +2939,7 @@ input:checked+.titles+.content {
         text-align: center;
         letter-spacing: -0.5px;
         color: #181E32;
-
+        margin: 0 auto;
 
 
     }
