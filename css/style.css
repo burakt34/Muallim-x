@@ -326,7 +326,7 @@
     width: 1278px;
     height: 320px;
     margin: 0px auto 56px auto;
-    
+
 
 
     /* margin: 0px 81px 0 80px; */
@@ -449,6 +449,11 @@
 .container .eduselle .eduinfo .eduinfop2 h3 {
     display: none;
 }
+
+.container .eduselle .eduinfo .eduinfop2btn {
+    display: none;
+}
+
 
 
 /*cards*/
@@ -1230,7 +1235,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     width: 358px; */
-    height: 256px;
+    /* height: 256px; */
 }
 
 
@@ -2494,7 +2499,8 @@ input:checked+.titles+.content {
         height: 112px;
         margin: 0 auto;
     }
-    .container .eduselle .mentor .mentorbtn a{
+
+    .container .eduselle .mentor .mentorbtn a {
         width: 100%;
         height: 48px;
     }
@@ -2697,16 +2703,83 @@ input:checked+.titles+.content {
         color: #181E32;
         position: relative;
         /* margin-top: 150px; */
-        margin-top: -590px;
+        margin-top: -625px;
 
         display: flex;
         flex-direction: column;
         padding: 24px;
 
         width: 100%;
-        background: #FAFAFA; 
-        height: 500px;
+        background: #FAFAFA;
+        height: 1100px;
 
+    }
+
+
+    .container .eduselle .eduinfo .eduinfop2btn {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+        width: 327px;
+        height: 112px;
+        margin-top: 24px;
+
+    }
+
+    .container .eduselle .eduinfo .eduinfop2btn a #fop2btn1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 16px 32px;
+        gap: 10px;
+        width: 297px;
+        height: 48px;
+        background: #FF6800;
+        border-radius: 12px;
+        outline: none;
+        border: none;
+
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+
+    .container .eduselle .eduinfo .eduinfop2btn a #fop2btn1:hover {
+        background: #CF5400;
+        color: #FFf;
+    }
+
+    .container .eduselle .eduinfo .eduinfop2btn a #fop2btn2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 16px 32px;
+        gap: 10px;
+        width: 297px;
+        height: 48px;
+        border: 2px solid #FF6800;
+        border-radius: 12px;
+        background: #fff;
+
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FF6800;
+
+    }
+
+    .container .eduselle .eduinfo .eduinfop2btn a #fop2btn2:hover {
+        background: #CF5400;
+        color: #FFf;
     }
 
     .container .eduselle .eduinfo .eduinfop2 h3 {
@@ -2775,6 +2848,7 @@ input:checked+.titles+.content {
         height: 208px;
         background: #FFFFFF;
         border-radius: 24px;
+        margin: 0 auto;
         cursor: pointer;
     }
 
@@ -2899,7 +2973,7 @@ input:checked+.titles+.content {
 
 
     /* iletişim pop start */
-    .formpop{
+    .formpop {
         position: relative;
         width: 100%;
         height: 2000px;
