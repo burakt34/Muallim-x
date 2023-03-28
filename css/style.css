@@ -3552,6 +3552,7 @@ input:checked+.titles+.content {
         height: 150px;
         width: 100%;
         max-width: 279px;
+        object-fit: contain;
 
     }
 
