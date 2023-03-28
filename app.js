@@ -1547,3 +1547,25 @@ var elems = Array.prototype.slice.call(document.querySelectorAll('.js-switch'));
 elems.forEach(function(html) {
 var switchery = new Switchery(html,{ color: '#4C40F7', secondaryColor : '#4C40F7',jackColor: '#fff'});
 });
+
+
+
+/* toggle ball start */
+
+const ball = document.querySelector(".toggleselect");
+const aylik = document.querySelector(".ucr");
+const yillik = document.querySelector(".ucr1");
+const ucrb = document.querySelector("#ucrb");
+const ucrc =document.querySelector("#ucrc");
+
+
+
+ball.addEventListener("click", function(){
+  aylik.style.display = "none";
+  yillik.style.display = "flex";
+  ucrb.style.display = "none"
+  ucrc.style.display = "flex"
+  console.log("tıklandı...")
+})
+/* toggle ball start */
+

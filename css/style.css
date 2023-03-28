@@ -1156,7 +1156,14 @@
     /* margin-top: 24px; */
 }
 
+.container .payplan .paycardall .pcardright .ucr1 {
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
 .container .payplan .paycardall .pcardright .ucr #nbr {
+    display: flex;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -1175,6 +1182,33 @@
     line-height: 29px;
     color: #181059;
     opacity: 0.68;
+}
+
+/*  */
+
+.container .payplan .paycardall .pcardright .ucr1 #nbr1 {
+    /* display: flex; */
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 68px;
+    color: #181E32;
+    opacity: 0.96;
+    margin-right: 8px;
+}
+
+.container .payplan .paycardall .pcardright .ucr1 #mo1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #181059;
+    opacity: 0.68;
+}
+.container .payplan .paycardall .pcardright #ucrc {
+    display: none;
 }
 
 .container .payplan .paycardall .pcardright button {
