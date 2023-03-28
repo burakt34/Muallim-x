@@ -316,7 +316,7 @@
 .container .egg .eggcardall .eggcardmain .eggcard {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     padding: 24px;
     width: 404px;
     height: 360px;
@@ -329,6 +329,7 @@
     max-width: 356px;
     width: 356px;
     height: 192px;
+    object-fit: cover;
 }
 
 .container .egg .eggcardall .eggcardmain .eggcard h4 {
@@ -339,6 +340,7 @@
     line-height: 32px;
     color: #181E32;
     margin-top: 40px;
+    
 }
 
 .container .egg .eggcardall .eggcardmain .eggcard p {
@@ -349,7 +351,7 @@
     font-size: 18px;
     line-height: 22px;
     color: #181E32;
-    margin-top: 4px;
+    /* margin-top: 4px; */
 }
 
 
