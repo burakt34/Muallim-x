@@ -163,7 +163,7 @@
 .container .slider {
     background: url(../img/slider_1440.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% auto;
     object-fit: fill;
     /* width: 100%; */
     /* height: 850px; */
@@ -225,6 +225,7 @@
     /* margin: 60px 361px 200px 81px; */
     margin: 0 auto;
     padding: 80px;
+    gap: 40px;
 }
 
 .container .slider .sliderinfo h2 {
@@ -241,7 +242,7 @@
 .container .slider .sliderinfo .slideicerik {
     width: 515px;
     height: 64px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 
@@ -266,7 +267,7 @@
     height: 56px;
     background: #FF6800;
     border-radius: 16px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     outline: none;
     border: 0;
     cursor: pointer;
@@ -325,6 +326,7 @@
     width: 1278px;
     height: 320px;
     margin: 0px auto 56px auto;
+    
 
 
     /* margin: 0px 81px 0 80px; */
@@ -433,16 +435,14 @@
 .container .eduselle .eduinfo .eduinfop {
     width: 614px;
     height: 320px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 32px;
     letter-spacing: -0.5px;
     color: #181E32;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    background: #FAFAFA;
 
 }
 
@@ -1995,7 +1995,7 @@ input:checked+.titles+.content {
 
     .container .slider {
         background: url(img/slider_1920.jpg), cover;
-        background-image: 100% 100%;
+        background-image: 100% auto;
         width: 100%;
     }
 
@@ -2424,7 +2424,7 @@ input:checked+.titles+.content {
     /* eduselle start --egitim paketleri */
 
     .container .eduselle {
-        height: 2976px;
+        height: 2920px;
         width: 100%;
 
 
@@ -2703,7 +2703,10 @@ input:checked+.titles+.content {
         flex-direction: column;
         padding: 24px;
 
-        width: 340px;
+        width: 100%;
+        background: #FAFAFA; 
+        height: 500px;
+
     }
 
     .container .eduselle .eduinfo .eduinfop2 h3 {
@@ -2723,10 +2726,10 @@ input:checked+.titles+.content {
 
     .container .eduselle .educard {
         padding: 0px;
-        width: 327px;
+        width: 100%;
         height: 2096px;
-        margin: 40px auto 0 auto;
-        padding: 24px;
+        margin: 0 auto;
+        /* padding: 24px; */
         gap: 16px;
     }
 
@@ -2755,7 +2758,7 @@ input:checked+.titles+.content {
         flex-direction: column;
         align-items: center;
         /* padding: 24px; */
-        width: 327px;
+        width: 100%;
         height: 248px;
         background: #FFFFFF;
         border-radius: 24px;
