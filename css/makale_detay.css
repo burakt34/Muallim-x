@@ -1149,9 +1149,11 @@
     }
 
     .container .egg #egii {
+        
         display: flex;
-        /* width: 100%; */
-        object-fit: contain;
+        max-width: 375px;
+        object-fit: cover;
+        border-radius: 16px;
     }
 
 

@@ -262,12 +262,13 @@
 
 }
 
-.container .egg #bkimg {
+.container .egg #egii {
     width: 1062px;
     height: 572.76px;
     border-radius: 24px;
     display: flex;
     object-fit: cover;
+    border-radius: 16px;
 
     margin-top: 40px;
 
@@ -1152,6 +1153,7 @@
         display: flex;
         /* width: 100%; */
         object-fit: contain;
+        border-radius: 16px;
     }
 
 
@@ -1184,7 +1186,10 @@
     }
 
 
-
+    .container .egg #egii {
+        width: 360px;
+        border-radius: 16px;
+    }
 
 
     .container .egg .eggcardall h3 {
@@ -1203,6 +1208,21 @@
         flex-direction: column;
         padding: 24px;
         width: 100%;
+    }
+
+    /* .container .egg #egii {
+        width: 360px;
+        border-radius: 16px;
+    } */
+
+    .container .egg #egii {
+        /* display: flex; */
+        display: flex;
+        /* width: 100%; */
+        max-width: 375px;
+        object-fit: cover;
+        border-radius: 16px;
+
     }
 
     .container .egg .eggcardall .eggcardmain .eggcard {
