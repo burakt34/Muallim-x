@@ -261,6 +261,12 @@
     color: #18181B;
 
 }
+.container .egg #egii {
+    display: flex;
+    /* width: 100%; */
+    object-fit: contain;
+    border-radius: 16px;
+}
 
 .container .egg #bkimg {
     width: 1062px;
@@ -1152,6 +1158,7 @@
         display: flex;
         /* width: 100%; */
         object-fit: contain;
+        border-radius: 16px;
     }
 
 
