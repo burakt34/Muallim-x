@@ -451,6 +451,10 @@
     display: none;
 }
 
+.container .eduselle .eduinfo .eduinfop2 p {
+    background: #FAFAFA;
+}
+
 .container .eduselle .eduinfo .eduinfop2btn {
     display: none;
 }
