@@ -1552,31 +1552,30 @@ var switchery = new Switchery(html,{ color: '#4C40F7', secondaryColor : '#4C40F7
 
 /* toggle ball start */
 
-const ball = document.querySelector(".toggleselect");
-const aylik = document.querySelector(".ucr");
-const yillik = document.querySelector(".ucr1");
+const ball = document.querySelector("#checkBox");
+const aylik = document.querySelectorAll(".ucr");
+const yillik = document.querySelectorAll(".ucr1");
 const ucrb = document.querySelector("#ucrb");
 const ucrc =document.querySelector("#ucrc");
 
 
 
-ball.addEventListener("click", function(){
-  aylik.style.display = "none";
-  yillik.style.display = "flex";
-  ucrb.style.display = "none"
-  ucrc.style.display = "flex"
-  console.log("tıklandı...")
+
+ball.addEventListener('change', (event) => {
+  if (event.currentTarget.checked) {
+    
+    
+    aylik[0].style.display = "none";
+    aylik[1].style.display = "none";
+    yillik[0].style.display = "flex";
+    yillik[1].style.display = "flex";
+  } else {
+    yillik[0].style.display = "none";
+    yillik[1].style.display = "none";
+    aylik[0].style.display = "flex";
+    aylik[1].style.display = "flex";
+    
+  }
 })
-/* toggle ball start */
 
-
-
-// function myFunction() {
-//   var x = document.getElementById("myDIV");
-//   if (x.style.display === "none") {
-//     x.style.display = "block";
-//   } else {
-//     x.style.display = "none";
-//   }
-// }
 
