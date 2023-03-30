@@ -1400,7 +1400,7 @@
 }
 
 .sss .accordion {
-    
+
     width: 1062px;
     height: 216px;
 }
@@ -1413,7 +1413,7 @@
 
 .sss .titles {
 
-    font-weight: 500px; 
+    font-weight: 500px;
 
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -3009,10 +3009,15 @@
 
     /* iletişim pop start */
     .formpop {
-        position: relative;
+        /* position: relative;
         width: 100%;
         height: 2000px;
-        top: 100px;
+        top: 100px; */
+
+        width: 100%;
+        height: 1150px;
+        top: 6500px;
+        position: absolute;
     }
 
     .formpop .poptitle {
@@ -3021,28 +3026,99 @@
 
     .formpop .popperson {
         width: 100%;
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column; */
+        display: block;
     }
 
 
     .formpop .popperson .poppername {
         width: 100%;
-        display: flex;
-        flex-direction: column;
+        display: block;
+        margin: 20px auto;
+    }
+
+    #popper1 {
+        margin-bottom: 5px;
     }
 
     .formpop .popperson .city {
-        display: flex;
-        flex-direction: column;
+        display: block;
         width: 100%;
+        /* position: absolute;
+        left: 0;
+        top: 50px; */
+    }
+
+    #Ilceler {
+        margin-top: 5px;
     }
 
     .formpop .popperson .schl {
         display: flex;
         flex-direction: column;
         width: 100%;
+        /* position: absolute;
+        left: 0; */
     }
+
+    #schl2 {
+        margin-top: 5px;
+    }
+
+    .formpop .popperson .city {
+        display: block;
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .parentinfo {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 180px;
+    }
+
+    .parentinfo .pnm {
+        margin: 15px auto;
+    }
+
+    #pnmcb {
+        margin-top: 5px;
+    }
+
+    .educlsinfo .educysl {
+        width: 370px;
+        height: 30px;
+    }
+
+    .educlsinfo .educkamp {
+        width: 370px;
+        height: 30px;
+    }
+
+    .ucrsec {
+        display: block;
+        width: 100%;
+    }
+
+    #ucret {
+        display: block;
+        width: 330px;
+        margin-top: 5px;
+    }
+
+    .educlsinfo {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 90px;
+    }
+
+    /* .formbtn {
+        margin-top: 80px;
+    } */
+
 
     /* iletişim pop end */
 
