@@ -1450,10 +1450,10 @@
     margin-bottom: 0;
 }
 
-.content {
+.sss .content {
     border-radius: 0 0 3px 3px;
     max-height: 0;
-    overflow: scroll;
+    overflow: auto;
     padding: 0 15px;
 
 }
@@ -1523,7 +1523,8 @@
 
     margin: 24px;
 
-    border: 1px solid rgba(226, 232, 240, 1)
+    border: 1px solid rgba(226, 232, 240, 1);
+    overflow-y: auto;
 }
 
 
@@ -1813,6 +1814,7 @@
     letter-spacing: 0.0025em;
     color: #64748B;
     border: none;
+    outline: none;
 }
 
 .container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain2 {
@@ -1834,6 +1836,7 @@
     letter-spacing: 0.0025em;
     color: #64748B;
     border: none;
+    outline: none;
 }
 
 .container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain3 {
@@ -1855,6 +1858,7 @@
     letter-spacing: 0.0025em;
     color: #64748B;
     border: none;
+    outline: none;
 }
 
 .container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain4 {
@@ -1876,6 +1880,7 @@
     letter-spacing: 0.0025em;
     color: #64748B;
     border: none;
+    outline: none;
 }
 
 .container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain5 {
@@ -1896,6 +1901,7 @@
     line-height: 20px;
     letter-spacing: 0.0025em;
     color: #64748B;
+    outline: none;
 }
 
 
@@ -2210,8 +2216,8 @@
         /* height: 12002px; */
         width: 100%;
         margin: 0 auto;
-        overflow: hidden;
-        /* overflow-x: hidden; */
+        /* overflow: hidden; */
+        overflow-x: hidden;
     }
 
     .container .header {
@@ -3575,7 +3581,7 @@
         flex-grow: 1;
         background: #E2E8F0;
 
-        overflow-y: auto;
+        overflow: auto;
 
         margin: 24px;
 
