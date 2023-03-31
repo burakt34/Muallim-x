@@ -1579,3 +1579,68 @@ ball.addEventListener('change', (event) => {
 })
 
 
+
+
+
+
+
+
+
+
+/*  */
+
+
+var data1 = [
+  {
+    "il": "MuallimX 5,6 ve 7. Sınıflar",
+    "plaka": 1,
+    "ilceleri": [
+      "₺3100/ay",
+      "₺37.200/yıl"
+    ]
+  },
+  {
+    "il": "MuallimX LGS",
+    "plaka": 2,
+    "ilceleri": [
+      "₺4000/ay",
+      "₺48.000/yıl",
+      
+    ]
+  },
+]
+function search(nameKey, myArray){
+    for (var i=0; i < myArray.length; i++) {
+        if (myArray[i].plaka == nameKey) {
+            return myArray[i];
+        }
+    }
+}
+$( document ).ready(function() {
+  $.each(data1, function( index, value ) {
+    $('#snfs').append($('<option>', {
+        value: value.plaka,
+        text:  value.il
+    }));
+  });
+  $("#snfs").change(function(){
+    var valueSelected = this.value;
+    if($('#snfs').val() > 0) {
+      $('#pkts').html('');
+      $('#pkts').append($('<option>', {
+        value: 0,
+        text:  'Eğitim Süresi'
+      }));
+      $('#pkts').prop("disabled", false);
+      var resultObject = search($('#snfs').val(), data1);
+      $.each(resultObject.ilceleri, function( index, value ) {
+        $('#pkts').append($('<option>', {
+            value: value,
+            text:  value
+        }));
+      });
+      return false;
+    }
+    $('#pkts').prop("disabled", true);
+  });
+});
