@@ -3100,10 +3100,14 @@
     #pnmcb {
         margin-top: 5px;
     }
+    .educlsinfo {
+        display: block;
+    }
 
     .educlsinfo .educysl {
         width: 370px;
         height: 30px;
+        display: block;
     }
 
     .educlsinfo .educkamp {
@@ -3122,6 +3126,9 @@
         margin-top: 5px;
     }
 
+    #pkts {
+        display: block;
+    }
     .educlsinfo {
         display: flex;
         flex-direction: column;
