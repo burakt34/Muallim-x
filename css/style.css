@@ -3128,6 +3128,7 @@
 
     #pkts {
         display: block;
+        margin-top: 5px;
     }
     .educlsinfo {
         display: flex;
