@@ -1025,9 +1025,9 @@
 }
 
 .formbtn #formbtns:hover {
-    background: #FFf;
-    color: #CF5400;
-    border: 1px solid #FF6800;
+    background: #CF5400;
+    color: #fff;
+    
 }
 
 /* iletişim form pop end */
