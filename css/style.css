@@ -729,6 +729,7 @@
     letter-spacing: 0.0025em;
     color: #64748B;
     margin-right: 20px;
+    outline: none;
 }
 
 .popperson .poppername #popper2 {
@@ -749,6 +750,7 @@
     line-height: 20px;
     letter-spacing: 0.0025em;
     color: #64748B;
+    outline: none;
 }
 
 .popperson #Iller {
@@ -770,6 +772,7 @@
     letter-spacing: 0.0025em;
     color: #64748B;
     margin-right: 20px;
+    outline: none;
 }
 
 .popperson #Ilceler {
@@ -790,6 +793,7 @@
     line-height: 20px;
     letter-spacing: 0.0025em;
     color: #64748B;
+    outline: none;
 }
 
 .popperson .schl #schl1 {
@@ -813,6 +817,7 @@
 
     position: relative;
     margin-right: 20px;
+    outline: none;
 }
 
 .popperson .schl #schl2 {
@@ -835,6 +840,7 @@
     color: #64748B;
 
     position: relative;
+    outline: none;
 }
 
 
@@ -853,6 +859,7 @@
 .parentinfo .pnm {
     width: 684px;
     height: 28px;
+    
 }
 
 .parentinfo .pnm h4 {
@@ -882,6 +889,7 @@
     letter-spacing: 0.0025em;
     color: #64748B;
     margin-right: 20px;
+    outline: none;
 
 }
 
@@ -902,7 +910,7 @@
     line-height: 20px;
     letter-spacing: 0.0025em;
     color: #64748B;
-
+    outline: none;
 
 }
 
