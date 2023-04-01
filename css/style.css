@@ -3035,7 +3035,7 @@
         top: 100px; */
 
         width: 100%;
-        height: 1150px;
+        height: 1250px;
         top: 6500px;
         position: absolute;
     }
@@ -3114,11 +3114,17 @@
         width: 370px;
         height: 30px;
         display: block;
+        position: absolute;
+        bottom: 240px;
     }
+
 
     .educlsinfo .educkamp {
         width: 370px;
         height: 30px;
+        display: block;
+        position: absolute;
+        bottom: 190px;
     }
 
     .ucrsec {
@@ -3143,9 +3149,9 @@
         margin-top: 90px;
     }
 
-    /* .formbtn {
-        margin-top: 80px;
-    } */
+    .formbtn {
+        margin-top: 100px;
+    }
 
 
     /* iletişim pop end */
