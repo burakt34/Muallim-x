@@ -1011,6 +1011,10 @@
 
 }
 
+.educlsinfo .ucrsec select:focus {
+    outline: 1.5px solid #CF5400;
+}
+
 .educlsinfo .ucrsec select:first-child {
     margin-right: 20px;
 }
