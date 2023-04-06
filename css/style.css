@@ -732,6 +732,13 @@
     outline: none;
 }
 
+.popperson .poppername #popper1:focus {
+    border: 1.5px solid #CF5400;
+}
+.popperson .poppername #popper1::placeholder {
+    font-weight: 100;
+    color: #cedaeb;
+}
 .popperson .poppername #popper2 {
     width: 330px;
     height: 56px;
@@ -751,6 +758,14 @@
     letter-spacing: 0.0025em;
     color: #64748B;
     outline: none;
+}
+
+.popperson .poppername #popper2:focus {
+    border: 1.5px solid #CF5400;
+}
+.popperson .poppername #popper2::placeholder {
+    font-weight: 100;
+    color: #cedaeb;
 }
 
 .popperson #Iller {
@@ -775,6 +790,10 @@
     outline: none;
 }
 
+.popperson #Iller:focus {
+    outline: 1.5px solid #CF5400;
+}
+
 .popperson #Ilceler {
     width: 330px;
     height: 60px;
@@ -795,6 +814,10 @@
     color: #64748B;
     outline: none;
 }
+.popperson #ilceler:focus {
+    outline: 1.5px solid #CF5400;
+}
+
 
 .popperson .schl #schl1 {
     width: 330px;
@@ -819,7 +842,13 @@
     margin-right: 20px;
     outline: none;
 }
-
+.popperson .schl #schl1:focus {
+    border: 1.5px solid #CF5400;
+}
+.popperson .schl #schl1::placeholder {
+    font-weight: 100;
+    color: #cedaeb;
+}
 .popperson .schl #schl2 {
     width: 330px;
     height: 56px;
@@ -843,6 +872,14 @@
     outline: none;
 }
 
+.popperson .schl #schl2:focus {
+    border: 1.5px solid #CF5400;
+}
+.popperson .schl #schl2::placeholder {
+    font-weight: 100;
+    color: #cedaeb;
+}
+
 
 
 
@@ -859,7 +896,7 @@
 .parentinfo .pnm {
     width: 684px;
     height: 28px;
-    
+
 }
 
 .parentinfo .pnm h4 {
@@ -893,6 +930,14 @@
 
 }
 
+.parentinfo .pnmc #pnmca:focus {
+    border: 1.5px solid #CF5400;
+}
+.parentinfo .pnmc #pnmca::placeholder {
+    font-weight: 100;
+    color: #cedaeb;
+}
+
 .parentinfo .pnmc #pnmcb {
     width: 330px;
     height: 56px;
@@ -912,6 +957,14 @@
     color: #64748B;
     outline: none;
 
+}
+
+.parentinfo .pnmc #pnmcb:focus {
+    border: 1.5px solid #CF5400;
+}
+.parentinfo .pnmc #pnmcb::placeholder {
+    font-weight: 100;
+    color: #cedaeb;
 }
 
 
@@ -1035,7 +1088,7 @@
 .formbtn #formbtns:hover {
     background: #CF5400;
     color: #fff;
-    
+
 }
 
 /* iletişim form pop end */
@@ -1816,13 +1869,23 @@
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.0025em;
     color: #64748B;
-    border: none;
     outline: none;
+}
+
+
+.container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain1:focus {
+    border: 1.5px solid #CF5400;
+    font-weight: 700;
+}
+
+.container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain1::placeholder {
+    color: #cbd3df;
+    font-weight: lighter;
 }
 
 .container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain2 {
@@ -1838,13 +1901,21 @@
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.0025em;
     color: #64748B;
-    border: none;
     outline: none;
+}
+
+.container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain2:focus {
+    border: 1.5px solid #CF5400;
+}
+
+.container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain2::placeholder {
+    color: #cbd3df;
+    font-weight: lighter;
 }
 
 .container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain3 {
@@ -1860,14 +1931,23 @@
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.0025em;
     color: #64748B;
-    border: none;
     outline: none;
 }
+
+.container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain3:focus {
+    border: 1.5px solid #CF5400;
+}
+
+.container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain3::placeholder {
+    color: #cbd3df;
+    font-weight: lighter;
+}
+
 
 .container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain4 {
     display: flex;
@@ -1882,13 +1962,21 @@
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.0025em;
     color: #64748B;
-    border: none;
     outline: none;
+}
+
+.container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain4:focus {
+    border: 1.5px solid #CF5400;
+}
+
+.container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain4::placeholder {
+    color: #cbd3df;
+    font-weight: lighter;
 }
 
 .container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain5 {
@@ -1904,7 +1992,7 @@
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.0025em;
@@ -1912,6 +2000,14 @@
     outline: none;
 }
 
+.container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain5:focus {
+    border: 1.5px solid #CF5400;
+}
+
+.container .contact .cntmain .cntform .ctnformmain .ctnfrm #ctnformmain5::placeholder {
+    color: #cbd3df;
+    font-weight: lighter;
+}
 
 .container .contact .cntmain .cntform .ctnformmain .cntformbtn {
     display: flex;
@@ -3114,6 +3210,7 @@
     #pnmcb {
         margin-top: 5px;
     }
+
     .educlsinfo {
         display: block;
     }
@@ -3150,6 +3247,7 @@
         display: block;
         margin-top: 5px;
     }
+
     .educlsinfo {
         display: flex;
         flex-direction: column;
