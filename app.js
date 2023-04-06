@@ -1461,34 +1461,34 @@ var data = [
     ]
   }
 ]
-function search(nameKey, myArray){
-    for (var i=0; i < myArray.length; i++) {
-        if (myArray[i].plaka == nameKey) {
-            return myArray[i];
-        }
+function search(nameKey, myArray) {
+  for (var i = 0; i < myArray.length; i++) {
+    if (myArray[i].plaka == nameKey) {
+      return myArray[i];
     }
+  }
 }
-$( document ).ready(function() {
-  $.each(data, function( index, value ) {
+$(document).ready(function () {
+  $.each(data, function (index, value) {
     $('#Iller').append($('<option>', {
-        value: value.plaka,
-        text:  value.il
+      value: value.plaka,
+      text: value.il
     }));
   });
-  $("#Iller").change(function(){
+  $("#Iller").change(function () {
     var valueSelected = this.value;
-    if($('#Iller').val() > 0) {
+    if ($('#Iller').val() > 0) {
       $('#Ilceler').html('');
       $('#Ilceler').append($('<option>', {
         value: 0,
-        text:  'Lütfen Bir İlçe seçiniz'
+        text: 'Lütfen Bir İlçe seçiniz'
       }));
       $('#Ilceler').prop("disabled", false);
       var resultObject = search($('#Iller').val(), data);
-      $.each(resultObject.ilceleri, function( index, value ) {
+      $.each(resultObject.ilceleri, function (index, value) {
         $('#Ilceler').append($('<option>', {
-            value: value,
-            text:  value
+          value: value,
+          text: value
         }));
       });
       return false;
@@ -1499,16 +1499,16 @@ $( document ).ready(function() {
 
 const hamburger = document.querySelector(".hmg");
 const popClose = document.querySelector("#closeicon");
-const hmgPop =document.querySelector(".hmg-pop");
+const hmgPop = document.querySelector(".hmg-pop");
 
-hamburger.addEventListener("click",function(){
-  hmgPop.style.display= "flex";
+hamburger.addEventListener("click", function () {
+  hmgPop.style.display = "flex";
   hmgPop.style.transition = "ease .5s all";
   console.log("tıklandı");
 })
 
-popClose.addEventListener("click",function(){
-  hmgPop.style.display= "none";
+popClose.addEventListener("click", function () {
+  hmgPop.style.display = "none";
   console.log("tıklandı");
 })
 
@@ -1516,27 +1516,27 @@ popClose.addEventListener("click",function(){
 
 /* iletişim pop up end*/
 
-const iletisim= document.querySelector("#pcardrightbtn1");
-const iletisim1= document.querySelector("#pcardrightbtn2");
+const iletisim = document.querySelector("#pcardrightbtn1");
+const iletisim1 = document.querySelector("#pcardrightbtn2");
 const iletisimPop = document.querySelector(".formpop");
 const popClosecon = document.querySelector("#closepop");
 
 
-iletisim.addEventListener("click",function(){
-  iletisimPop.style.display= "flex";
+iletisim.addEventListener("click", function () {
+  iletisimPop.style.display = "flex";
   // hmgPop.style.transition = "ease .5s all";
   console.log("tıklandı");
 })
 
-iletisim1.addEventListener("click",function(){
-iletisimPop.style.display= "flex";
-// hmgPop.style.transition = "ease .5s all";
-console.log("tıklandı");
+iletisim1.addEventListener("click", function () {
+  iletisimPop.style.display = "flex";
+  // hmgPop.style.transition = "ease .5s all";
+  console.log("tıklandı");
 })
 
-popClosecon.addEventListener("click",function(){
-  iletisimPop.style.display= "none";
-  
+popClosecon.addEventListener("click", function () {
+  iletisimPop.style.display = "none";
+
   console.log("tıklandı");
 })
 
@@ -1544,8 +1544,8 @@ popClosecon.addEventListener("click",function(){
 
 var elems = Array.prototype.slice.call(document.querySelectorAll('.js-switch'));
 
-elems.forEach(function(html) {
-var switchery = new Switchery(html,{ color: '#4C40F7', secondaryColor : '#4C40F7',jackColor: '#fff'});
+elems.forEach(function (html) {
+  var switchery = new Switchery(html, { color: '#4C40F7', secondaryColor: '#4C40F7', jackColor: '#fff' });
 });
 
 
@@ -1556,15 +1556,15 @@ const ball = document.querySelector("#checkBox");
 const aylik = document.querySelectorAll(".ucr");
 const yillik = document.querySelectorAll(".ucr1");
 const ucrb = document.querySelector("#ucrb");
-const ucrc =document.querySelector("#ucrc");
+const ucrc = document.querySelector("#ucrc");
 
 
 
 
 ball.addEventListener('change', (event) => {
   if (event.currentTarget.checked) {
-    
-    
+
+
     aylik[0].style.display = "none";
     aylik[1].style.display = "none";
     yillik[0].style.display = "flex";
@@ -1574,7 +1574,7 @@ ball.addEventListener('change', (event) => {
     yillik[1].style.display = "none";
     aylik[0].style.display = "flex";
     aylik[1].style.display = "flex";
-    
+
   }
 })
 
@@ -1605,38 +1605,38 @@ var data1 = [
     "ilceleri": [
       "₺4000/ay",
       "₺48.000/yıl",
-      
+
     ]
   },
 ]
-function search(nameKey, myArray){
-    for (var i=0; i < myArray.length; i++) {
-        if (myArray[i].plaka == nameKey) {
-            return myArray[i];
-        }
+function search(nameKey, myArray) {
+  for (var i = 0; i < myArray.length; i++) {
+    if (myArray[i].plaka == nameKey) {
+      return myArray[i];
     }
+  }
 }
-$( document ).ready(function() {
-  $.each(data1, function( index, value ) {
+$(document).ready(function () {
+  $.each(data1, function (index, value) {
     $('#snfs').append($('<option>', {
-        value: value.plaka,
-        text:  value.il
+      value: value.plaka,
+      text: value.il
     }));
   });
-  $("#snfs").change(function(){
+  $("#snfs").change(function () {
     var valueSelected = this.value;
-    if($('#snfs').val() > 0) {
+    if ($('#snfs').val() > 0) {
       $('#pkts').html('');
       $('#pkts').append($('<option>', {
         value: 0,
-        text:  'Eğitim Süresi'
+        text: 'Eğitim Süresi'
       }));
       $('#pkts').prop("disabled", false);
       var resultObject = search($('#snfs').val(), data1);
-      $.each(resultObject.ilceleri, function( index, value ) {
+      $.each(resultObject.ilceleri, function (index, value) {
         $('#pkts').append($('<option>', {
-            value: value,
-            text:  value
+          value: value,
+          text: value
         }));
       });
       return false;
@@ -1644,3 +1644,25 @@ $( document ).ready(function() {
     $('#pkts').prop("disabled", true);
   });
 });
+
+
+
+
+/*  */
+
+const formButton = document.querySelector("#formbtns");
+const popForm = document.querySelector("#popper1, #popper2, #schl1, #schl2, #pnmca, #pnmcb ")
+
+formButton.addEventListener("click", function () {
+  console.log("....tıkladı")
+  // alert("Kayıt Bilgi Formu Gönderildi")
+
+  const inputText = popForm.value.trim();
+  if (inputText == null || inputText == "") {
+    alert("Lütfen Kayıt Bilgilerinizi Giriniz.")
+  }
+  else {
+    alert("Kayıt Bilgi Formu Gönderildi.")
+  }
+
+})
