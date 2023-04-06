@@ -1595,8 +1595,8 @@ var data1 = [
     "il": "MuallimX 5,6 ve 7. Sınıflar",
     "plaka": 1,
     "ilceleri": [
-      "₺3100/ay",
-      "₺37.200/yıl"
+      "₺2300/ay",
+      "₺27.600/yıl"
     ]
   },
   {
