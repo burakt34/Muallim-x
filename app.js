@@ -1648,7 +1648,7 @@ $(document).ready(function () {
 
 
 
-/*  */
+/* kayıt formu pop up start */
 
 const formButton = document.querySelector("#formbtns");
 const popForm = document.querySelector("#popper1, #popper2, #schl1, #schl2, #pnmca, #pnmcb ")
@@ -1665,4 +1665,32 @@ formButton.addEventListener("click", function () {
     alert("Kayıt Bilgi Formu Gönderildi.")
   }
 
+})
+
+
+/* kayıt formu pop up end */
+
+
+
+
+const contButton = document.querySelector(".cntformbtn");
+const constForm = document.querySelector("#ctnformmain1, #ctnformmain2, #ctnformmain3, #ctnformmain4, #ctnformmain5")
+
+contButton.addEventListener("click", function () {
+  console.log("....tıkladı")
+  // alert("Kayıt Bilgi Formu Gönderildi")
+
+  const inputTextCon = constForm.value.trim();
+  if (inputTextCon == null || inputTextCon == "") {
+    alert("Lütfen İletişim Form Bilgilerinizi Giriniz.")
+  }
+  else {
+    alert("İletişim Formu Gönderildi.")
+  }
+
+})
+
+
+contButton.addEventListener("click", function(){
+  console.log("tıklandı.....")
 })
