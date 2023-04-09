@@ -2233,6 +2233,10 @@
         margin: 0 auto;
     }
 
+    .container .payplan .paycardall{
+        width: 1282px;
+    }
+
     .container .payplan .payinfo {
         width: 95%;
         height: 88px;
