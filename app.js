@@ -1518,6 +1518,7 @@ popClose.addEventListener("click", function () {
 
 const iletisim = document.querySelector("#pcardrightbtn1");
 const iletisim1 = document.querySelector("#pcardrightbtn2");
+const iletisim2 = document.querySelector("#pcardrightbtn3");
 const iletisimPop = document.querySelector(".formpop");
 const popClosecon = document.querySelector("#closepop");
 
@@ -1529,6 +1530,12 @@ iletisim.addEventListener("click", function () {
 })
 
 iletisim1.addEventListener("click", function () {
+  iletisimPop.style.display = "flex";
+  // hmgPop.style.transition = "ease .5s all";
+  console.log("tıklandı");
+})
+
+iletisim2.addEventListener("click", function () {
   iletisimPop.style.display = "flex";
   // hmgPop.style.transition = "ease .5s all";
   console.log("tıklandı");
@@ -1567,14 +1574,17 @@ ball.addEventListener('change', (event) => {
 
     aylik[0].style.display = "none";
     aylik[1].style.display = "none";
+    aylik[2].style.display = "none";
     yillik[0].style.display = "flex";
     yillik[1].style.display = "flex";
+    yillik[2].style.display ="flex";
   } else {
     yillik[0].style.display = "none";
     yillik[1].style.display = "none";
+    yillik[2].style.display = "none";
     aylik[0].style.display = "flex";
     aylik[1].style.display = "flex";
-
+    aylik[2].style.display = "flex";
   }
 })
 
@@ -1595,12 +1605,12 @@ var data1 = [
     "il": "MuallimX 5,6 ve 7. Sınıflar",
     "plaka": 1,
     "ilceleri": [
-      "₺2300/ay",
-      "₺27.600/yıl"
+      "₺3100/ay",
+      "₺37.200/yıl"
     ]
   },
   {
-    "il": "MuallimX LGS",
+    "il": "MuallimX LGS Mega Paket",
     "plaka": 2,
     "ilceleri": [
       "₺4000/ay",
@@ -1608,6 +1618,15 @@ var data1 = [
 
     ]
   },
+  {
+    "il": "MuallimX LGS Eğitim Paketi",
+    "plaka": 3,
+    "ilceleri": [
+      "₺2900/ay",
+      "₺34.800/yıl",
+
+    ]
+  }
 ]
 function search(nameKey, myArray) {
   for (var i = 0; i < myArray.length; i++) {
