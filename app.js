@@ -1597,7 +1597,7 @@ ball.addEventListener('change', (event) => {
 
 
 
-/*  */
+/*  paket seçimi start */
 
 
 var data1 = [
@@ -1663,6 +1663,9 @@ $(document).ready(function () {
     $('#pkts').prop("disabled", true);
   });
 });
+
+
+/* paket seçimi end */
 
 
 
