@@ -422,12 +422,12 @@
     background: #CF5400;
     border: 2px solid #CF5400;
     color: #fff;
-    font-size: 12px;
+    /* font-size: 12px; */
 }
 
 .container .eduselle .eduinfo .eduinfoc .eduinfobutton #btns:hover {
     background: #CF5400;
-    border: 2px solid #FF6800;
+    border: 2px solid #CF5400;
     color: #FFf;
     /* font-size: 12px; */
 }
@@ -2337,6 +2337,7 @@
         margin: 0 auto;
         /* overflow: hidden; */
         overflow-x: hidden;
+        background: #FAFAFA;
     }
 
     .container .header {
@@ -2360,7 +2361,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: 10px 24px;
+        /* padding: 10px 24px; */
         width: 100%;
         height: 56px;
         left: 0px;
