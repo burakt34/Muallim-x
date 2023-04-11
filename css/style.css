@@ -1017,7 +1017,7 @@
 .educlsinfo .eductitle {
     width: 684px;
     height: 28px;
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
 }
 
 .educlsinfo .eductitle h4 {
