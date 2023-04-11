@@ -1435,7 +1435,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 958px;
+    height: 1158px;
     background: #FFFFFF;
     padding: 80px;
 }
@@ -1463,7 +1463,7 @@
     align-items: flex-start;
     padding: 16px 0px;
     width: 1062px;
-    height: 668px;
+    height: 1050px;
     border: 1px solid #E2E8F0;
     border-radius: 16px;
     /* flex: none;
@@ -1580,8 +1580,8 @@
     border-top: none;
     /* padding: 15px; */
     /* font-size: 14px; */
-    max-height: 168px;
-    font-family: 'Montserrat';
+    max-height: 550px;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -2269,7 +2269,7 @@
         flex-direction: column;
         align-items: center;
         width: 95%;
-        height: 958px;
+        height: 1058px;
         background: #FFFFFF;
         padding: 80px;
 
@@ -3572,7 +3572,7 @@
         padding: 24px;
         gap: 24px;
         width: 100%;
-        height: 1784px;
+        height: 2684px;
         background: #FFFFFF;
 
     }
@@ -3603,7 +3603,7 @@
         align-items: flex-start;
         padding: 16px 0px;
         width: 327px;
-        height: 1680px;
+        height: 2480px;
         border: 1px solid #E2E8F0;
         border-radius: 16px;
         margin: 0 auto;
@@ -3696,8 +3696,7 @@
     .sss input:checked+.titles+.content {
 
         border-top: none;
-        max-height: 168px;
-        max-height: 568px;
+        max-height: 1508px;
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 400;
