@@ -1541,6 +1541,12 @@ iletisim2.addEventListener("click", function () {
   console.log("tıklandı");
 })
 
+function popupBtn(){
+  iletisimPop.style.display = "flex";
+  // hmgPop.style.transition = "ease .5s all";
+  console.log("tıklandı popupBtn");
+}
+
 popClosecon.addEventListener("click", function () {
   iletisimPop.style.display = "none";
 

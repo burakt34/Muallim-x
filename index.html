@@ -17,6 +17,95 @@
 </head>
 
 <body>
+                <!-- iletişim form pop start-->
+                <div class="formpop" id="formpopm">
+
+                    <div class="poptitle">
+                        <h3>Kayıt Formu</h3>
+                        <img src="img/xicon.svg" id="closepop">
+                    </div>
+                    <div class="popperson">
+                        <div class="poppersontitle">
+                            <h4>Öğrenci Bilgileri</h4>
+                        </div>
+                        <div class="poppername">
+                            <input id="popper1" type="text" placeholder="Adı">
+                            <input id="popper2" type="text" placeholder="Soyadı">
+                        </div>
+                        <div class="city">
+                            <select id="Iller">
+                                <option value="0">Lütfen Bir İl Seçiniz</option>
+                            </select>
+                            <select id="Ilceler" disabled="disabled">
+                                <option value="0">Lütfen Önce bir İl seçiniz</option>
+                            </select>
+                        </div>
+                        <div class="schl">
+                            <input id="schl1" type="text" placeholder="Okulu">
+                            <input id="schl2" type="text" placeholder="Sınıfı">
+                        </div>
+    
+                    </div>
+    
+    
+    
+                    <div class="parentinfo">
+    
+                        <div class="pnm">
+                            <h4>Veli İletişim Bilgileri</h4>
+                        </div>
+    
+                        <div class="pnmc">
+                            <input id="pnmca" type="phone" placeholder="Telefon">
+                            <input id="pnmcb" type="email" placeholder="Email">
+                        </div>
+                    </div>
+    
+    
+    
+                    <div class="educlsinfo">
+    
+                        <div class="eductitle">
+                            <h4>Eğitim Bilgileri</h4>
+                        </div>
+                        <div class="ucrsec">
+                            <select id="snfs" name="">
+                                <option value="0">MuallimX Paket Seçimi</option>
+    
+                            </select>
+    
+                            <select id="pkts" name="">
+                                <option value="0">MuallimX Paket Seçimi</option>
+    
+                            </select>
+    
+                        </div>
+    
+                        <div class="educysl">
+                            <input id="yslch1" type="checkbox" name="" id="">
+                            <a href="#">Üyelik koşullarını</a> ve <a href="#">KVKK</a> politikasını kabul ediyorum.
+                        </div>
+    
+                        <div class="educkamp">
+                            <input id="yslch2" type="checkbox" name="" id="">
+                            Kampanyalardan ve bana özel tekliflerden haberdar olmak için elektronik ileti ve sms almak
+                            istiyorum.
+                        </div>
+    
+                    </div>
+    
+                    <div class="formbtn">
+                        <button id="formbtns">Gönder</button>
+                    </div>
+    
+    
+    
+    
+                </div>
+    
+    
+    
+                <!-- iletişim form pop start-->
 
     <div class="container">
 
@@ -133,7 +222,7 @@
                     seminerler, sosyal medya kullanımları, sürpriz etkinlikler ve çok daha fazlası için heyecanla
                     sizleri bekliyoruz!</p>
                 <div class="mentorbtn">
-                    <a href="#payplani"><button id="mntbtn1">Hemen Başla</button></a>
+                    <a href="#"><button id="mntbtn1" onclick="popupBtn()">Hemen Başla</button></a>
                     <a href="#payplani"><button id="mntbtn2">Paketler ve Fiyatlar</button></a>
                 </div>
 
@@ -145,7 +234,7 @@
                 <div class="eduinfoc">
                     <h3>MuallimX LGS Eğitim Paketi</h3>
                     <div class="eduinfobutton">
-                        <a href="#payplani"> <button id="btnf">
+                        <a href="#"> <button id="btnf" onclick="popupBtn()">
                                 <p>Hemen Başla</p>
                             </button></a>
                         <a href="#payplani"><button id="btns">Paketler ve Fiyatlar</button></a>
@@ -233,7 +322,7 @@
                 <div class="eduinfoc">
                     <h3>MuallimX 5, 6 ve 7. Sınıflar</h3>
                     <div class="eduinfobutton">
-                        <a href="#payplani"> <button id="btnf">
+                        <a href="#"> <button id="btnf2" onclick="popupBtn()">
                                 <p>Hemen Başla</p>
                             </button></a>
                         <a href="#payplani"><button id="btns">Paketler ve Fiyatlar</button></a>
@@ -251,7 +340,7 @@
                         keyifli tema sonu etkinlikleri düzenliyor ve bilgilerimizi pekiştiriyoruz.</p>
 
                     <div class="eduinfop2btn">
-                        <a href="#payplani"><button id="fop2btn1">Hemen Başla</button></a>
+                        <a href="#"><button id="fop2btn1" onclick="popupBtn()">Hemen Başla</button></a>
                         <a href="#payplani"><button id="fop2btn2">Paketler ve Fiyatlar</button></a>
                     </div>
                 </div>
@@ -591,95 +680,7 @@
 
 
 
-            <!-- iletişim form pop start-->
-            <div class="formpop" id="formpopm">
 
-                <div class="poptitle">
-                    <h3>Kayıt Formu</h3>
-                    <img src="img/xicon.svg" id="closepop">
-                </div>
-                <div class="popperson">
-                    <div class="poppersontitle">
-                        <h4>Öğrenci Bilgileri</h4>
-                    </div>
-                    <div class="poppername">
-                        <input id="popper1" type="text" placeholder="Adı">
-                        <input id="popper2" type="text" placeholder="Soyadı">
-                    </div>
-                    <div class="city">
-                        <select id="Iller">
-                            <option value="0">Lütfen Bir İl Seçiniz</option>
-                        </select>
-                        <select id="Ilceler" disabled="disabled">
-                            <option value="0">Lütfen Önce bir İl seçiniz</option>
-                        </select>
-                    </div>
-                    <div class="schl">
-                        <input id="schl1" type="text" placeholder="Okulu">
-                        <input id="schl2" type="text" placeholder="Sınıfı">
-                    </div>
-
-                </div>
-
-
-
-                <div class="parentinfo">
-
-                    <div class="pnm">
-                        <h4>Veli İletişim Bilgileri</h4>
-                    </div>
-
-                    <div class="pnmc">
-                        <input id="pnmca" type="phone" placeholder="Telefon">
-                        <input id="pnmcb" type="email" placeholder="Email">
-                    </div>
-                </div>
-
-
-
-                <div class="educlsinfo">
-
-                    <div class="eductitle">
-                        <h4>Eğitim Bilgileri</h4>
-                    </div>
-                    <div class="ucrsec">
-                        <select id="snfs" name="">
-                            <option value="0">MuallimX Paket Seçimi</option>
-
-                        </select>
-
-                        <select id="pkts" name="">
-                            <option value="0">MuallimX Paket Seçimi</option>
-
-                        </select>
-
-                    </div>
-
-                    <div class="educysl">
-                        <input id="yslch1" type="checkbox" name="" id="">
-                        <a href="#">Üyelik koşullarını</a> ve <a href="#">KVKK</a> politikasını kabul ediyorum.
-                    </div>
-
-                    <div class="educkamp">
-                        <input id="yslch2" type="checkbox" name="" id="">
-                        Kampanyalardan ve bana özel tekliflerden haberdar olmak için elektronik ileti ve sms almak
-                        istiyorum.
-                    </div>
-
-                </div>
-
-                <div class="formbtn">
-                    <button id="formbtns">Gönder</button>
-                </div>
-
-
-
-
-            </div>
-
-
-
-            <!-- iletişim form pop start-->
 
 
         </div>
@@ -942,6 +943,7 @@
     </div>
 
     <!-- footer end -->
+
 
 
 
