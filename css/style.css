@@ -643,7 +643,7 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 40px;
-    gap: 24px;
+    /* gap: 24px; */
     width: 764px;
     height: 816px;
     background: #FFFFFF;
@@ -660,7 +660,7 @@
 
 .formpop .poptitle {
     height: 40px;
-    width: 636px;
+    width: 100%;
     /* margin-top: 16px; */
     display: flex;
     align-items: center;
@@ -689,9 +689,9 @@
     flex-direction: column;
     flex-wrap: wrap;
     padding: 0px;
-    gap: 16px;
+    gap: 8px;
     width: 684px;
-    height: 252px;
+    height: 232px;
     margin-top: 24px;
 
 }
@@ -712,7 +712,7 @@
 
 .popperson .poppername #popper1 {
     width: 330px;
-    height: 56px;
+    height: 52px;
 
     background: #FFFFFF;
     border: 1.5px solid #E2E8F0;
@@ -743,7 +743,7 @@
 
 .popperson .poppername #popper2 {
     width: 330px;
-    height: 56px;
+    height: 52px;
 
     background: #FFFFFF;
     border: 1.5px solid #E2E8F0;
@@ -773,14 +773,14 @@
 
 .popperson #Iller {
     width: 330px;
-    height: 60px;
+    height: 52px;
 
     background: #FFFFFF;
     border: 1.5px solid #E2E8F0;
     border-radius: 12px;
 
     align-items: center;
-    padding: 18px 16px;
+    padding: 16px 16px;
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -799,14 +799,14 @@
 
 .popperson #Ilceler {
     width: 330px;
-    height: 60px;
+    height: 52px;
 
     background: #FFFFFF;
     border: 1.5px solid #E2E8F0;
     border-radius: 12px;
 
     align-items: center;
-    padding: 18px 16px;
+    padding: 16px 16px;
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -825,7 +825,7 @@
 
 .popperson .schl #schl1 {
     width: 330px;
-    height: 56px;
+    height: 52px;
 
     background: #FFFFFF;
     border: 1.5px solid #E2E8F0;
@@ -858,14 +858,14 @@
 
 .popperson .schl #schl2 {
     width: 330px;
-    height: 56px;
+    height: 52px;
 
     background: #FFFFFF;
     border: 1.5px solid #E2E8F0;
     border-radius: 12px;
 
     align-items: center;
-    padding: 18px 16px;
+    padding: 16px 16px;
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -918,10 +918,10 @@
 
 .parentinfo .pnmc #pnmca {
     width: 330px;
-    height: 56px;
+    height: 52px;
 
     align-items: center;
-    padding: 18px 16px;
+    padding: 16px 16px;
     background: #FFFFFF;
     border: 1.5px solid #E2E8F0;
     border-radius: 12px;
@@ -949,7 +949,7 @@
 
 .parentinfo .pnmc #pnmcb {
     width: 330px;
-    height: 56px;
+    height: 52px;
 
     align-items: center;
     padding: 18px 16px;
@@ -1001,10 +1001,10 @@
 
 
 .educlsinfo .ucrsec select {
-    padding: 18px 16px;
+    padding: 16px 16px;
 
     width: 330px;
-    height: 56px;
+    height: 52px;
 
     background: #FFFFFF;
 
@@ -1084,7 +1084,7 @@
     padding: 16px 32px;
     gap: 10px;
     width: 684px;
-    height: 56px;
+    height: 52px;
     background: #FF6800;
     border-radius: 16px;
     font-family: 'Montserrat', sans-serif;
