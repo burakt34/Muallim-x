@@ -1518,7 +1518,7 @@ popClose.addEventListener("click", function () {
 
 const iletisim = document.querySelector("#pcardrightbtn1");
 const iletisim1 = document.querySelector("#pcardrightbtn2");
-const iletisim2 = document.querySelector("#pcardrightbtn3");
+// const iletisim2 = document.querySelector("#pcardrightbtn3");
 const iletisimPop = document.querySelector(".formpop");
 const popClosecon = document.querySelector("#closepop");
 
@@ -1606,12 +1606,12 @@ var data1 = [
     "il": "MuallimX 5,6 ve 7. Sınıflar",
     "plaka": 1,
     "ilceleri": [
-      "₺3100/ay",
-      "₺37.200/yıl"
+      "₺2300/ay",
+      "₺27.600/yıl"
     ]
   },
   {
-    "il": "MuallimX LGS Mega Paket",
+    "il": "MuallimX LGS Paketi",
     "plaka": 2,
     "ilceleri": [
       "₺4000/ay",
@@ -1619,15 +1619,15 @@ var data1 = [
 
     ]
   },
-  {
-    "il": "MuallimX LGS Eğitim Paketi",
-    "plaka": 3,
-    "ilceleri": [
-      "₺2900/ay",
-      "₺34.800/yıl",
+  // {
+  //   "il": "MuallimX LGS Eğitim Paketi",
+  //   "plaka": 3,
+  //   "ilceleri": [
+  //     "₺2900/ay",
+  //     "₺34.800/yıl",
 
-    ]
-  }
+  //   ]
+  // }
 ]
 function search(nameKey, myArray) {
   for (var i = 0; i < myArray.length; i++) {
