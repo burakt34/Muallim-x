@@ -1535,11 +1535,6 @@ iletisim1.addEventListener("click", function () {
   console.log("tıklandı");
 })
 
-iletisim2.addEventListener("click", function () {
-  iletisimPop.style.display = "flex";
-  // hmgPop.style.transition = "ease .5s all";
-  console.log("tıklandı");
-})
 
 function popupBtn(){
   iletisimPop.style.display = "flex";
@@ -1580,17 +1575,17 @@ ball.addEventListener('change', (event) => {
 
     aylik[0].style.display = "none";
     aylik[1].style.display = "none";
-    aylik[2].style.display = "none";
+  
     yillik[0].style.display = "flex";
     yillik[1].style.display = "flex";
-    yillik[2].style.display ="flex";
+   
   } else {
     yillik[0].style.display = "none";
     yillik[1].style.display = "none";
-    yillik[2].style.display = "none";
+    
     aylik[0].style.display = "flex";
     aylik[1].style.display = "flex";
-    aylik[2].style.display = "flex";
+    
   }
 })
 
