@@ -1685,7 +1685,7 @@ formButton.addEventListener("click", function () {
     alert("Lütfen Kayıt Bilgilerinizi Giriniz.")
   }
   else {
-    alert("Kayıt Bilgi Formu Gönderildi.")
+    // alert("Kayıt Bilgi Formu Gönderildi.")
   }
 
 })

@@ -20,88 +20,89 @@
 
     <!-- iletişim form pop start-->
     <div class="formpop" id="formpopm">
+        <form accept-charset="UTF-8" action="https://getform.io/f/356575a2-ee53-4a26-ae7e-7040e9a4cb87" method="POST">
 
-        <div class="poptitle">
-            <h3>Kayıt Formu</h3>
-            <img src="img/xicon.svg" id="closepop">
-        </div>
-        <div class="popperson">
-            <div class="poppersontitle">
-                <h4>Öğrenci Bilgileri</h4>
+            <div class="poptitle">
+                <h3>Kayıt Formu</h3>
+                <img src="img/xicon.svg" id="closepop">
             </div>
-            <div class="poppername">
-                <input id="popper1" type="text" placeholder="Adı">
-                <input id="popper2" type="text" placeholder="Soyadı">
-            </div>
-            <div class="city">
-                <select id="Iller">
-                    <option value="0">Lütfen Bir İl Seçiniz</option>
-                </select>
-                <select id="Ilceler" disabled="disabled">
-                    <option value="0">Lütfen Önce bir İl seçiniz</option>
-                </select>
-            </div>
-            <div class="schl">
-                <input id="schl1" type="text" placeholder="Okulu">
-                <input id="schl2" type="text" placeholder="Sınıfı">
-            </div>
-
-        </div>
-
-
-
-        <div class="parentinfo">
-
-            <div class="pnm">
-                <h4>Veli İletişim Bilgileri</h4>
-            </div>
-
-            <div class="pnmc">
-                <input id="pnmca" type="phone" placeholder="Telefon">
-                <input id="pnmcb" type="email" placeholder="Email">
-            </div>
-        </div>
-
-
-
-        <div class="educlsinfo">
-
-            <div class="eductitle">
-                <h4>Eğitim Bilgileri</h4>
-            </div>
-            <div class="ucrsec">
-                <select id="snfs" name="">
-                    <option value="0">MuallimX Paket Seçimi</option>
-
-                </select>
-
-                <select id="pkts" name="">
-                    <option value="0">MuallimX Paket Seçimi</option>
-
-                </select>
+            <div class="popperson">
+                <div class="poppersontitle">
+                    <h4>Öğrenci Bilgileri</h4>
+                </div>
+                <div class="poppername">
+                    <input name="ad" id="popper1" type="text" placeholder="Adı">
+                    <input name="soyad" id="popper2" type="text" placeholder="Soyadı">
+                </div>
+                <div class="city">
+                    <select name="il" id="Iller">
+                        <option value="0">Lütfen Bir İl Seçiniz</option>
+                    </select>
+                    <select name="ilce" id="Ilceler" disabled="disabled">
+                        <option value="0">Lütfen Önce bir İl seçiniz</option>
+                    </select>
+                </div>
+                <div class="schl">
+                    <input name="okul" id="schl1" type="text" placeholder="Okulu">
+                    <input name="sinif" id="schl2" type="text" placeholder="Sınıfı">
+                </div>
 
             </div>
 
-            <div class="educysl">
-                <input id="yslch1" type="checkbox" name="" id="">
-                <a href="#">Üyelik koşullarını</a> ve <a href="#">KVKK</a> politikasını kabul ediyorum.
+
+
+            <div class="parentinfo">
+
+                <div class="pnm">
+                    <h4>Veli İletişim Bilgileri</h4>
+                </div>
+
+                <div class="pnmc">
+                    <input name="tel" id="pnmca" type="phone" placeholder="Telefon">
+                    <input name="mail" id="pnmcb" type="email" placeholder="Email">
+                </div>
             </div>
 
-            <div class="educkamp">
-                <input id="yslch2" type="checkbox" name="" id="">
-                Kampanyalardan ve bana özel tekliflerden haberdar olmak için elektronik ileti ve sms almak
-                istiyorum.
+
+
+            <div class="educlsinfo">
+
+                <div class="eductitle">
+                    <h4>Eğitim Bilgileri</h4>
+                </div>
+                <div class="ucrsec">
+                    <select name="paket" id="snfs" name="">
+                        <option value="0">MuallimX Paket Seçimi</option>
+
+                    </select>
+
+                    <select name="urun" id="pkts" name="">
+                        <option value="0">MuallimX Paket Seçimi</option>
+
+                    </select>
+
+                </div>
+
+                <div class="educysl">
+                    <input name="yasal1" id="yslch1" type="checkbox" name="" id="">
+                    <a href="#">Üyelik koşullarını</a> ve <a href="#">KVKK</a> politikasını kabul ediyorum.
+                </div>
+
+                <div class="educkamp">
+                    <input name="yasal2" id="yslch2" type="checkbox" name="" id="">
+                    Kampanyalardan ve bana özel tekliflerden haberdar olmak için elektronik ileti ve sms almak
+                    istiyorum.
+                </div>
+
             </div>
 
-        </div>
-
-        <div class="formbtn">
-            <button id="formbtns">Gönder</button>
-        </div>
+            <div class="formbtn">
+                <button type="submit" id="formbtns">Gönder</button>
+            </div>
 
 
 
-
+        </form>
     </div>
 
 
@@ -777,6 +778,7 @@
 
         <!-- iletişim start -->
         <div class="contact" id="contacti">
+
             <div class="cntmain">
                 <div class="ctninfo">
                     <h3>İletişim Bilgileri</h3>
@@ -793,21 +795,25 @@
                 <div class="cntform">
 
                     <div class="ctnformmain">
-                        <h3>İletişim Formu</h3>
-                        <div class="ctnfrm">
-                            <input type="text" placeholder="Adı" id="ctnformmain1">
-                            <input type="text" placeholder="Soyadı" id="ctnformmain2">
-                            <input type="email" placeholder="Email" id="ctnformmain3">
-                            <input type="phone" placeholder="Telefon" id="ctnformmain4">
-                            <textarea type="text" placeholder="Mesaj" id="ctnformmain5"></textarea>
-                        </div>
-                        <button class="cntformbtn">
-                            <p>Gönder</p>
-                        </button>
+                        <form accept-charset="UTF-8" action="https://getform.io/f/356575a2-ee53-4a26-ae7e-7040e9a4cb87"
+                            method="POST">
+                            <h3>İletişim Formu</h3>
+                            <div class="ctnfrm">
+                                <input name="isim" type="text" placeholder="Adı" id="ctnformmain1">
+                                <input name="soisim" type="text" placeholder="Soyadı" id="ctnformmain2">
+                                <input name="email" type="email" placeholder="Email" id="ctnformmain3">
+                                <input name="tel" type="phone" placeholder="Telefon" id="ctnformmain4">
+                                <textarea name="mesaj" type="text" placeholder="Mesaj" id="ctnformmain5"></textarea>
+                            </div>
+                            <button class="cntformbtn">
+                                <p>Gönder</p>
+                            </button>
+                        </form>
                     </div>
 
                 </div>
             </div>
+
         </div>
 
 
