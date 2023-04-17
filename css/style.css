@@ -674,7 +674,7 @@
     padding: 40px;
     gap: 8px;
     width: 764px;
-    height: 670px;
+    height: 700px;
     background: #FFFFFF;
     border-radius: 24px;
 
@@ -3208,6 +3208,7 @@
 
     #popper1 {
         margin-bottom: 5px;
+        display: block;
     }
 
     .formpop .popperson .city {
@@ -3220,6 +3221,7 @@
 
     #Ilceler {
         margin-top: 5px;
+        display: block;
     }
 
     .formpop .popperson .schl {
@@ -3253,6 +3255,7 @@
 
     #pnmcb {
         margin-top: 5px;
+        display: block;
     }
 
     .educlsinfo {
@@ -3301,6 +3304,10 @@
 
     .formbtn {
         margin-top: 130px;
+        
+    }
+    .formbtn #formbtns {
+        width: 320px;
     }
 
 
